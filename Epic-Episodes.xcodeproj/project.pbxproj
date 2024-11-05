@@ -11,6 +11,7 @@
 		077D87122CA9B67D008B8A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077D87112CA9B67D008B8A7C /* ContentView.swift */; };
 		077D87142CA9B67F008B8A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077D87132CA9B67F008B8A7C /* Assets.xcassets */; };
 		077D87172CA9B67F008B8A7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077D87162CA9B67F008B8A7C /* Preview Assets.xcassets */; };
+		07C485252CDAA252004D1AD8 /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C485242CDAA252004D1AD8 /* EpisodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		077D87112CA9B67D008B8A7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		077D87132CA9B67F008B8A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		077D87162CA9B67F008B8A7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07C485242CDAA252004D1AD8 /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,11 @@
 		077D870E2CA9B67D008B8A7C /* Epic-Episodes */ = {
 			isa = PBXGroup;
 			children = (
-				077D870F2CA9B67D008B8A7C /* Epic_EpisodesApp.swift */,
-				077D87112CA9B67D008B8A7C /* ContentView.swift */,
 				077D87132CA9B67F008B8A7C /* Assets.xcassets */,
 				077D87152CA9B67F008B8A7C /* Preview Content */,
+				077D870F2CA9B67D008B8A7C /* Epic_EpisodesApp.swift */,
+				077D87112CA9B67D008B8A7C /* ContentView.swift */,
+				07C485242CDAA252004D1AD8 /* EpisodeView.swift */,
 			);
 			path = "Epic-Episodes";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				077D87122CA9B67D008B8A7C /* ContentView.swift in Sources */,
+				07C485252CDAA252004D1AD8 /* EpisodeView.swift in Sources */,
 				077D87102CA9B67D008B8A7C /* Epic_EpisodesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
