@@ -11,7 +11,8 @@ import SwiftUI
 struct Epic_EpisodesApp: App {
     var body: some Scene {
         WindowGroup {
-            EpisodeView()
+            ContentView()
+//            EpisodeView()
         }
     }
 }
